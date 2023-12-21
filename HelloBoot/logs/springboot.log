@@ -1,0 +1,45 @@
+2023-12-21T09:29:14.143+09:00  INFO 9904 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Starting HelloBootApplication using Java 17.0.8.1 with PID 9904 (C:\Users\masai\bootwork\HelloBoot\target\classes started by masai in C:\Users\masai\bootwork\HelloBoot)
+2023-12-21T09:29:14.143+09:00 DEBUG 9904 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Running with Spring Boot v3.2.0, Spring v6.1.1
+2023-12-21T09:29:14.143+09:00  INFO 9904 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T09:29:14.331+09:00  INFO 9904 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-12-21T09:29:14.337+09:00  INFO 9904 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2023-12-21T09:29:14.405+09:00  INFO 9904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2023-12-21T09:29:14.405+09:00  INFO 9904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-21T09:29:14.405+09:00  INFO 9904 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-21T09:29:14.474+09:00  INFO 9904 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-12-21T09:29:14.479+09:00  INFO 9904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-21T09:29:14.480+09:00  INFO 9904 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 334 ms
+2023-12-21T09:29:14.547+09:00  INFO 9904 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-12-21T09:29:14.615+09:00  INFO 9904 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2023-12-21T09:29:14.615+09:00  WARN 9904 --- [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-12-21T09:29:14.749+09:00  INFO 9904 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection oracle.jdbc.driver.T4CConnection@233d9489
+2023-12-21T09:29:14.749+09:00  INFO 9904 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2023-12-21T09:29:14.768+09:00  INFO 9904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-21T09:29:14.782+09:00  INFO 9904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2023-12-21T09:29:14.788+09:00  INFO 9904 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Started HelloBootApplication in 0.695 seconds (process running for 835.854)
+2023-12-21T09:29:14.790+09:00  INFO 9904 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-21T09:29:26.680+09:00  INFO 9904 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-21T09:29:26.681+09:00  INFO 9904 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-21T09:29:26.682+09:00  INFO 9904 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-21T09:29:26.683+09:00 DEBUG 9904 --- [http-nio-9090-exec-1] c.bs.firstboot.common.LoggerInterceptor  : =======인터셉터=======
+2023-12-21T09:29:26.683+09:00 DEBUG 9904 --- [http-nio-9090-exec-1] c.bs.firstboot.common.LoggerInterceptor  : /
+2023-12-21T09:29:26.683+09:00 DEBUG 9904 --- [http-nio-9090-exec-1] c.bs.firstboot.common.LoggerInterceptor  : ==================
+2023-12-21T09:29:48.440+09:00 DEBUG 9904 --- [http-nio-9090-exec-2] c.bs.firstboot.common.LoggerInterceptor  : =======인터셉터=======
+2023-12-21T09:29:48.441+09:00 DEBUG 9904 --- [http-nio-9090-exec-2] c.bs.firstboot.common.LoggerInterceptor  : /fileupload
+2023-12-21T09:29:48.441+09:00 DEBUG 9904 --- [http-nio-9090-exec-2] c.bs.firstboot.common.LoggerInterceptor  : ==================
+2023-12-21T09:29:48.442+09:00 DEBUG 9904 --- [http-nio-9090-exec-2] c.b.f.controller.ViewTestController      : 
+2023-12-21T09:29:48.442+09:00 DEBUG 9904 --- [http-nio-9090-exec-2] c.b.f.controller.ViewTestController      : 크기 : 0
+2023-12-21T09:29:48.442+09:00 DEBUG 9904 --- [http-nio-9090-exec-2] c.b.f.controller.ViewTestController      : 
+2023-12-21T09:29:48.442+09:00 DEBUG 9904 --- [http-nio-9090-exec-2] c.b.f.controller.ViewTestController      : 크기 : 0
+2023-12-21T09:29:48.442+09:00 DEBUG 9904 --- [http-nio-9090-exec-2] c.b.f.controller.ViewTestController      : 슈공이.jpg
+2023-12-21T09:29:48.444+09:00 DEBUG 9904 --- [http-nio-9090-exec-2] c.b.f.controller.ViewTestController      : 크기 : 217198
+2023-12-21T09:29:48.444+09:00 DEBUG 9904 --- [http-nio-9090-exec-2] c.b.f.controller.ViewTestController      : 
+2023-12-21T09:29:48.444+09:00 DEBUG 9904 --- [http-nio-9090-exec-2] c.b.f.controller.ViewTestController      : 크기 : 0
+2023-12-21T09:29:48.444+09:00 DEBUG 9904 --- [http-nio-9090-exec-2] c.b.f.controller.ViewTestController      : 
+2023-12-21T09:29:48.444+09:00 DEBUG 9904 --- [http-nio-9090-exec-2] c.b.f.controller.ViewTestController      : 크기 : 0
+2023-12-21T09:29:48.458+09:00 DEBUG 9904 --- [http-nio-9090-exec-3] c.bs.firstboot.common.LoggerInterceptor  : =======인터셉터=======
+2023-12-21T09:29:48.458+09:00 DEBUG 9904 --- [http-nio-9090-exec-3] c.bs.firstboot.common.LoggerInterceptor  : /
+2023-12-21T09:29:48.458+09:00 DEBUG 9904 --- [http-nio-9090-exec-3] c.bs.firstboot.common.LoggerInterceptor  : ==================
+2023-12-21T09:35:44.315+09:00  INFO 9904 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-12-21T09:35:44.353+09:00  INFO 9904 --- [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2023-12-21T09:35:44.362+09:00  INFO 9904 --- [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
